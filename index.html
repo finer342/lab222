@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 02 — Entities, Prototypes &amp; this</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: #0d1117;
+        color: #e6edf3;
+        font-family: system-ui, -apple-system, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        gap: 12px;
+      }
+      canvas {
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        background: #010409;
+        display: block;
+      }
+      .hint {
+        font-size: 14px;
+        color: #8b949e;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="game"></canvas>
+    <p class="hint">
+      Керування: <b>W / ↑</b> — тяга, <b>A / D</b> або <b>← / →</b> — поворот,
+      <b>S / ↓</b> — гальмування, <b>Space</b> — постріл
+    </p>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "js-lab-02-entities",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "biome check ./src",
+    "format": "biome format --write ./src"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "vite": "^6.0.0"
+  }
+}
